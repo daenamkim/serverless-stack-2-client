@@ -66,7 +66,7 @@ class BillingForm extends Component {
           />
         </FormGroup>
         <hr />
-        <FormGroup>
+        <FormGroup bsSize="large" controlId="name">
           <ControlLabel>Cardholder&apos;s name</ControlLabel>
           <FormControl
             type="text"
